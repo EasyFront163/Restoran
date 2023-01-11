@@ -142,3 +142,45 @@ body {
 .header-button:hover {
     background-color: #a1510f;
 }
+
+.cards-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{ 
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    width: 349px;
+    margin-right: 31px;
+    background-color: #FFFFFF;
+    margin-top: -80px;
+    padding: 0px 10px;
+    
+}
+.card-image {
+    display: flex;
+    justify-content: center;
+    padding-top: 31px;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 'Tinos', serif;
+}
+
+.card-title span {
+    color: #BC9060;
+}
+
+.card-desc {
+    text-align: center;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #656363;
+    
+}
