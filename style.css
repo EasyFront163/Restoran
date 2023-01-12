@@ -186,6 +186,7 @@ body {
 
 .history {
    margin-top: 166px;
+   padding-bottom: 200px;
 }
 
 .history-title {
@@ -243,7 +244,7 @@ body {
 .images1 {
     position: absolute;
     z-index: 0;
-    top: 134px;
+    top: 50px;
     left: -550px;
 }
 
@@ -252,12 +253,80 @@ body {
     z-index: 300;
     top: -100px;
     left: -350px;
-    margin-top: 151px;
+
 }
 
 .images3 {
     position: absolute;
     z-index: 999;
-    top: 350px;
+    top: 200px;
     left: -250px;
+}
+
+.black-block {
+    background-image: url(/images/blackbg.jpg);
+    padding: 80px 0;
+}
+
+.left-title {
+    font-size: 52px;
+    font-weight: 400;
+    font-family: 'Tinos', serif;
+    color: #D67E34;
+    margin-bottom: 20px;
+}
+
+.left-text {
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.right-btn {
+    background-color: #FF7400;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    padding: 14px 18px;
+    transition: background-color 0.2s linear;
+}
+
+.block-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dishes-title {
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 132px;
+    margin-bottom: 139px;
+}
+
+.dishes-title span {
+    color: #D67E34;
+}
+
+.burgers {
+    display: flex;
+    justify-content: center;
+}
+
+.burgers-image {
+    margin-right: 20px;
+}
+.burgers-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 29px;   
+}
+.burger-text {
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+    margin-left: 20px;
 }
