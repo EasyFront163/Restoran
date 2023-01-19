@@ -409,3 +409,105 @@ body {
     justify-content: center;
 }
 
+.reviews {
+    background-color: #E5E5E5;
+    padding-top: 104px;
+    padding-bottom: 139px;
+}
+
+.review-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.review-photo {
+    text-align: center;
+}
+
+.review-type {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.review-name {
+    padding-top: 9px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.gallery {
+    padding-bottom: 100px;
+}
+.gallery-header {
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    padding-top: 101px;
+    text-align: center;
+    margin-bottom:  59px;
+}
+
+.gallery-header span {
+    color: #D67E34;
+}
+
+.gallery-holder {
+    display: flex;
+    justify-content: center;
+}
+.gallery-left {
+    display: block;
+    margin-right: 30px;
+}
+
+.up-img {
+    margin-bottom: 10px;
+}
+
+.gallery-img2 {
+    margin-right: 25px;
+}
+
+.cooks {
+   text-align: center;
+}
+.cook-header {
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    margin-bottom: 107px;
+}
+
+.cook-header span {
+    color: #D67E34;
+}
+
+.cook-img {
+    margin-right: 32px;
+}
+
+
+.cooks-image {
+    margin-bottom: 50px;
+}
+
+.footer {
+    background-image: url(images/footerimg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-header {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    padding-top: 200px;
+   color: white;
+}
